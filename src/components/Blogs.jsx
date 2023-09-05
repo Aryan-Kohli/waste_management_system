@@ -3,7 +3,7 @@ import "./Blogs.css";
 export default function Blogs() {
   return (
     <div>
-      <h1>Blogs will come here</h1>
+      <h1>Blogs</h1>
     </div>
   );
 }
