@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@500&display=swap');
+
+#hero-section {
+    height: 100vh;
+    background-image: url("../assets/garbage.jpg");
+    filter: contrast(60%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero {
+    padding: 180px 0px;
+    text-align: center;
+    font-weight: bolder;
+    color:  #00e64d;
+    font-size: 4.5rem;
+    text-shadow:5px 5px 13px #003311;
+    font-family: 'Poppins', sans-serif;
+    
+}

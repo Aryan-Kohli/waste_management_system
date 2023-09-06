@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@500&display=swap');
+
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 0px 0px;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    border-bottom: 3px solid green;
+    background-color: white;
+}
+
+#title {
+   color: green;
+   font-family: 'Acme', sans-serif;
+ }
+
+
+#nav > .link {
+    /* padding-top: 15px; */
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 15px 10px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+#nav > .link:hover {
+    background-color: rgb(207, 234, 207);
+    color: darkgreen;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+#left-section {
+    margin-top: 5px;
+}
+
+#Login {
+    margin-top: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+#Login:hover {
+       color: green;
+       background-color: white;
+       transition: 0.3s;
+}
