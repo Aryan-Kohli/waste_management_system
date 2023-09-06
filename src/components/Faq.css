@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Playfair+Display&family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap');
 .mainhead{
-    color:red;
+    font-family: 'Calistoga', cursive;
+    font-size:5rem;
+    color:rgb(18, 89, 0);
+    margin-top: calc(0.05*100%);
+
+}
+/* dark rgb(18, 89, 0) light rgb(149, 219, 132) */
+.accordion-header .accordion-button {
+     color: rgb(255, 255, 255);
+    background-color: rgb(18,89,0); 
+    font-size: 2rem;
+    
+}
+.accordion-header .accordion-button.collapsed {
+    color: rgb(18, 89, 0);
+        background-color: rgb(255, 255, 255);
+        font-size: 2rem;
+        
+    }
+    .accordion-button, .accordion-body {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.3rem;
+    font-weight: 800;
+    color:rgb(18,89,0);
+}
+.faqmain{
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
