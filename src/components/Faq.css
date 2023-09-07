@@ -16,12 +16,12 @@
 .accordion-header .accordion-button.collapsed {
     color: rgb(18, 89, 0);
         background-color: rgb(255, 255, 255);
-        font-size: 2rem;
+        font-size: 1.3rem;
         
     }
     .accordion-button, .accordion-body {
         font-family: 'Playfair Display', serif;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     font-weight: 800;
     color:rgb(18,89,0);
 }

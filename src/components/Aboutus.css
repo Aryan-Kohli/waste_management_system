@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Merriweather:ital,wght@1,300&family=PT+Serif&family=Playfair+Display&display=swap');/* font-family: 'Calistoga',
+font-family: 'Calistoga',
+cursive;
+font-family: 'Merriweather',
+serif;
+font-family: 'Playfair Display',
+serif;
+font-family: 'PT Serif',
+serif;
+/* dark rgb(18, 89, 0) light rgb(149, 219, 132) */
+.about_head h1{
+    font-size: 4rem;
+    color:rgb(18,89,0);
+    font-family: 'Calistoga',serif;
+    margin-top: -30px;
+
+    text-shadow: 0px 0px 5px rgb(226, 255, 216);
+}
+.aboutpara{
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: 'PT Serif',serif;   
+}
+.aboutleftimg{
+    height:300px;
+    /* width: 45px; */
+    box-shadow: 0px 3px 8px 5px rgb(21, 23, 21);
+    margin-top: 10px;
+    background: url("../assets/garabage3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#aboutpara1{
+    margin-bottom: 20px;
+font-size: 1.5rem;
+color: rgb(18,89,0);
+}
+#AboutUs{
+    background:linear-gradient(45deg, white 85%, green 10%);
+}
