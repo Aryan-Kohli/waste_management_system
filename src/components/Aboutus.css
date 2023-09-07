@@ -12,7 +12,8 @@ serif;
     font-size: 4rem;
     color:rgb(18,89,0);
     font-family: 'Calistoga',serif;
-    margin-top: -30px;
+    /* margin-top: 30px; */
+    padding-top: 80px;
 
     text-shadow: 0px 0px 5px rgb(226, 255, 216);
 }

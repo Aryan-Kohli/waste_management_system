@@ -1,21 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@500&display=swap');
-
-
+@font-face {
+    font-family: myFont;
+    /* src: url(Starlord\ Italic.ttf); */
+    src:url("../assets/starlord-font/Starlord.ttf");
+}
+/* body{
+    width: 100vw;
+} */
 #nav {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0px 0px 0px;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
     position: sticky;
     z-index: 2;
     top: 0;
-    padding: 10px;
+    padding-left:5px;
+    padding-right:5px;
     border-bottom: 3px solid green;
     background-color: white;
 }
 
 #title {
-   color: green;
-   font-family: 'Acme', sans-serif;
+font-family: myFont;
+    /* color: #42ac52; */
+    /* margin-top: 2px; */
+    color: #04390c;
+    text-shadow: 2px 4px 4px #63e476a8;
+    letter-spacing: 1px;
  }
 
 
@@ -26,7 +38,9 @@
     font-weight: bolder;
     padding: 15px 10px;
     font-family: 'Poppins', sans-serif;
-    
+    font-family: 'PT Serif',
+            serif;   
+            font-size: 1.2rem;
     
 }
 
@@ -44,12 +58,12 @@
 }
 
 #Login {
-    margin-top: 5px;
+    /* margin-top: 15px; */
     font-weight: bolder;
     cursor: pointer;
-    padding: 20px;
+    padding: 7px 9px;
     border: 2px solid green;
-    background-color: green;
+    background-color: #117e22;;
     color: white;
     border-radius: 10px;
 }
