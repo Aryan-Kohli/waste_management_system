@@ -22,6 +22,12 @@ serif;
     font-weight: 800;
     font-family: 'PT Serif',serif;   
 }
+#Cards-stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 .aboutleftimg{
     height:300px;
     /* width: 45px; */

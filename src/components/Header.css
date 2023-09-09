@@ -7,6 +7,10 @@
 /* body{
     width: 100vw;
 } */
+#logo-img {
+    padding-top: 2px;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
@@ -29,6 +33,7 @@ font-family: myFont;
     text-shadow: 2px 4px 4px #63e476a8;
     letter-spacing: 1px;
     margin-left: -25px;
+    padding-top: 8px;
  }
 
 
