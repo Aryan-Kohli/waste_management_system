@@ -14,10 +14,10 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Aboutus />
       <Complaint />
       <Importance />
       <Blogs />
+      <Aboutus />
       <Faq />
       <Footer />
     </>

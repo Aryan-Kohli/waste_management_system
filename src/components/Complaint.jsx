@@ -35,7 +35,7 @@ export default function Complaint() {
                   className="form-control"
                   id="exampleInputEmail1"
                   required="true"
-                  placeholder="John Doe"
+                  placeholder="Rohan Kumar"
                   autocomplete="off"
                   aria-describedby="emailHelp"
                 />
@@ -48,7 +48,7 @@ export default function Complaint() {
                   type="email"
                   className="form-control"
                   id="exampleInputEmail1"
-                  placeholder="JohnDoe@example.com"
+                  placeholder="RohanKumar@example.com"
                   required="true"
                   autocomplete="off"
                   aria-describedby="emailHelp"
@@ -75,7 +75,7 @@ export default function Complaint() {
                   type="text"
                   className="form-control"
                   autocomplete="off"
-                  placeholder="Los Angeles, USA"
+                  placeholder="Munirka , Delhi-110067"
                   required="true"
                   id="exampleInputPassword1"
                 />

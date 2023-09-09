@@ -1,0 +1,84 @@
+.rounded-bottom{
+    /* background-color: rgb(91, 178, 75); */
+    background-color: rgb(67, 163, 52);
+    width:100vw;
+    /* margin-top: 5vh; */
+    /* height:0px; */
+}
+@media screen and (max-width:1414px) {
+    .footermain{
+        height: 900px !important;
+    }
+    .hrr{
+        margin-top: 35px;
+    }
+
+}
+.footermain{
+    /* background-color: rgb(91,178,75); */
+    background-color: rgb(67, 163, 52);
+    height: 770px;
+}
+.donatehead{
+    color: white;
+    font-family: 
+            cursive;
+}
+.btn-donate{
+    max-width:180px;
+    border:4px solid white;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}.btn-donate:hover{
+   color: rgb(67, 163, 52);
+   background-color: white;
+}
+.footerlinks  ul{
+    color:white;
+    font-family: 'Playfair Display',
+            serif;
+            font-size: 1.5rem;
+            margin-top: 50px;
+    list-style-type: none;
+}
+.hrr{
+    margin-top: 235px;
+    width: calc(90%);
+    background-color: wheat;
+    height: 1px;
+}
+.footerkafooter {
+ color: white;
+ /* margin-bottom: -50px; */
+}
+#ftlinks{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.link2 {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(67, 163, 52)  ;
+    /* border-radius: 35px; */
+    text-align: center;
+    margin: 7px;
+    line-height: 80px;
+}
+
+a i {
+    transition: all 0.3s linear;
+    color: white;
+}
+
+a:hover i {
+    transform: scale(1.5);
+}
+
+
+/* .handles .col{
+    background-color: white;
+    height:35px;
+    padd
+} */

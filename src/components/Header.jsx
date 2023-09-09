@@ -1,8 +1,9 @@
 import "./Header.css";
-
+import logo from "./logo.png";
 export default function header() {
   return (
     <div id="nav">
+      <img src={logo} alt="logo" height="80" className="link" />
       <h1 id="title">Garbage Guardians</h1>
       <a className="link" href="#AboutUs">
         About us
@@ -14,9 +15,9 @@ export default function header() {
       <a className="link">Discussions</a>
       <a className="link">Contact</a>
       <div id="left-section">
-        <div className="btn-success" id="Login">
+        <a className="btn" id="Login">
           Login | Signup
-        </div>
+        </a>
       </div>
     </div>
   );

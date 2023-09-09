@@ -16,6 +16,19 @@
     /* background-color: aqua; */
     background: linear-gradient(45deg,rgb(255, 255, 255) 35%, rgb(16, 72, 13) 2% );
 }
+@media screen and (max-width:1400px) {
+    .complaint-left{
+        background: linear-gradient(45deg, rgb(255, 255, 255) 38%, rgb(16, 72, 13) 2%);
+    }
+}
+@media screen and (max-width:1135px) {
+    .complaint-left{
+        background:  rgb(16, 72, 13) ;
+    }
+        #num100 {
+            color: rgb(255, 255, 255) !important;
+        }
+}
 #num100{
     color: black;
 }
@@ -61,7 +74,7 @@ input:focus {
     /* Firefox */
 }  
 #DefaultFile{
-    width:calc(0.4*100%);
+    width:calc(0.3*100vw);
 }
 #Complaint{
     /* background-color: black; */

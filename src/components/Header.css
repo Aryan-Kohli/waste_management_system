@@ -28,6 +28,7 @@ font-family: myFont;
     color: #04390c;
     text-shadow: 2px 4px 4px #63e476a8;
     letter-spacing: 1px;
+    margin-left: -25px;
  }
 
 
@@ -37,7 +38,7 @@ font-family: myFont;
     color: black;
     font-weight: bolder;
     padding: 15px 10px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-family: 'PT Serif',
             serif;   
             font-size: 1.2rem;
@@ -58,18 +59,21 @@ font-family: myFont;
 }
 
 #Login {
-    /* margin-top: 15px; */
-    font-weight: bolder;
-    cursor: pointer;
-    padding: 7px 9px;
-    border: 2px solid green;
-    background-color: #117e22;;
-    color: white;
-    border-radius: 10px;
+    color:white;
+    background-color: black;
+    border: none;
+    padding: 15px 25px;
+    font-size: 15px;
+    border-radius: 25px;
+        font-family: 'PT Serif',
+                serif;
+    top:35px;
+    right:25px;
 }
 
 #Login:hover {
-       color: green;
+       color: rgb(0, 0, 0);
        background-color: white;
        transition: 0.3s;
+       border : solid 2px lightgrey;
 }
