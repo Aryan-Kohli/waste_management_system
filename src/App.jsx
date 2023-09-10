@@ -5,7 +5,8 @@ import Blogs from "./components/Blogs";
 import Hero from "./components/Hero";
 
 import Faq from "./components/Faq";
-import Importance from "./components/Importance";
+import Maps from "./components/Maps";
+
 import Aboutus from "./components/Aboutus";
 import Complaint from "./components/Complaint";
 
@@ -15,7 +16,7 @@ function App() {
       <Header />
       <Hero />
       <Complaint />
-
+      <Maps />
       <Blogs />
       <Aboutus />
       <Faq />

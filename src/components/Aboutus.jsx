@@ -16,7 +16,7 @@ export default function Aboutus() {
           <h1 className="text-center">Facilities</h1>
         </div>
         <div id="Cards-stack">
-          <Card style={{ width: "24rem" }} className="cards mt-4">
+          <Card style={{ width: "24rem" }} className="cards mt-4 mx-4">
             <Card.Img variant="top" src={quizpic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">Interactive Quizzes</Card.Title>
@@ -24,7 +24,7 @@ export default function Aboutus() {
               <Button className="btn btn-primary">Know more.</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: "24rem" }} className="cards mt-4">
+          <Card style={{ width: "24rem" }} className="cards mt-4 mx-4">
             <Card.Img variant="top" src={ngopic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">
@@ -34,7 +34,7 @@ export default function Aboutus() {
               <Button className="btn btn-primary">Know more.</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: "24rem" }} className="cards mt-4">
+          <Card style={{ width: "24rem" }} className="cards mt-4 mx-4">
             <Card.Img variant="top" src={modulespic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">
@@ -44,7 +44,7 @@ export default function Aboutus() {
               <Button className="btn btn-primary">Know more.</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: "24rem" }} className=" cards mt-4">
+          <Card style={{ width: "24rem" }} className=" cards mt-4 mx-4">
             <Card.Img variant="top" src={rewardpic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">
@@ -54,7 +54,7 @@ export default function Aboutus() {
               <Button className="btn btn-primary">Know more.</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: "24rem" }} className="cards mt-4">
+          <Card style={{ width: "24rem" }} className="cards mt-4 mx-4">
             <Card.Img variant="top" src={blogpic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">Community Blogs</Card.Title>
@@ -62,7 +62,7 @@ export default function Aboutus() {
               <Button className="btn btn-primary">Know more.</Button>
             </Card.Body>
           </Card>
-          <Card style={{ width: "24rem" }} className="cards mt-4">
+          <Card style={{ width: "24rem" }} className="cards mt-4 mx-4">
             <Card.Img
               variant="top"
               src={artist_ecommercepic}

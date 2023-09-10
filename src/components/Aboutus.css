@@ -52,10 +52,17 @@ color: rgb(18,89,0);
             serif;
             font-weight: 500;
     border:2px solid rgb(58, 190, 46);
+    position: relative;
+        top: 0;
+        transition: top ease 0.5s;
 }
 .cardimg{
     height: 250px;
 }
 .cardTitle{
     font-weight: 800;
+}
+
+.cards:hover{
+    top: -10px;
 }

@@ -3,7 +3,7 @@ import "./Complaint.css";
 export default function Complaint() {
   return (
     <div id="Complaint">
-      <div className="container">
+      <div className="container ">
         <div className="complaint-main-head">
           <div className="row">
             <div className="offset-md-7">
