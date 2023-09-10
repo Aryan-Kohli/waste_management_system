@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Hero />
       <Complaint />
-      <Importance />
+
       <Blogs />
       <Aboutus />
       <Faq />

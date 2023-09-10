@@ -46,3 +46,16 @@ color: rgb(18,89,0);
 #AboutUs{
     background:linear-gradient(45deg, white 85%, green 10%);
 }
+.cards{
+    /* border:1px solid black; */
+    font-family: cursive,
+            serif;
+            font-weight: 500;
+    border:2px solid rgb(58, 190, 46);
+}
+.cardimg{
+    height: 250px;
+}
+.cardTitle{
+    font-weight: 800;
+}
