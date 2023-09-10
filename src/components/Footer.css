@@ -7,7 +7,7 @@
 }
 @media screen and (max-width:1414px) {
     .footermain{
-        height: 900px !important;
+        height: 700px !important;
     }
     .hrr{
         margin-top: 35px;
@@ -17,7 +17,7 @@
 .footermain{
     /* background-color: rgb(91,178,75); */
     background-color: rgb(67, 163, 52);
-    height: 770px;
+    height: 570px;
 }
 .donatehead{
     color: white;
@@ -43,7 +43,7 @@
     list-style-type: none;
 }
 .hrr{
-    margin-top: 235px;
+    margin-top: 35px;
     width: calc(90%);
     background-color: wheat;
     height: 1px;
