@@ -1,37 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@500&display=swap');
-/* font-family: 'Calistoga',
- cursive; */
-/* font-family: 'Playfair Display',
- serif; */
-/* dark rgb(18, 89, 0) light rgb(149, 219, 132) */
-#hero-section {
-    height: 100vh;
-    background-image: url("../assets/garbage2.avif");
-    height: 100%;
-    /* filter: contrast(60%); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -50px;
+.carousel , .d-block{
+    height:600px;
+}
+.carousel-control-next , .carousel-control-prev {
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top:calc(45%);
+    color: white;
+    opacity: 1;
+}
 
+.carousel-control-prev{
+    left:5%;
 }
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
-#hero {
-    padding: calc(0.15*100%) 0px;
-    text-align: center;
-    font-weight: bolder;
-    /* color: black; */
-    color:rgb(18,89,0);
-    font-size: 3rem;
-    /* text-shadow:5px 5px 13px #003311; */
-    text-transform: uppercase;
-    font-family: 'Calistoga', sans-serif;
-    /* -webkit-text-stroke: 0.02px #ffffff; */
-    text-shadow:0px 0px 10px #ffffff , 0px 0px 10px rgb(189, 255, 156);
+.carousel-control-next{
+    right:5%;
 }
