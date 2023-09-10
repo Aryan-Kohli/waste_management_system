@@ -1,0 +1,31 @@
+#Mapshead {
+    font-family: cursive;
+    /* background: -webkit-linear-gradient(45deg , #eee 74%, green 25%); */
+        /* -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; */
+    font-weight: 800;
+    margin-bottom: 50px;
+    
+    /* font-style: underline; */
+}
+#Maps{
+    /* background:linear-gradient(165deg , white 12%, green 5%); */
+    background:linear-gradient(45deg ,  green 75%,white 45%);
+    /* margin-bottom: 20px; */
+    color:white;
+    padding-bottom: 50px;
+}
+.mapimg{
+    height: 300px;
+    border:2px solid rgb(9, 108, 9);
+}
+.mapsinfo{
+    font-family: cursive;
+    font-size: 1.8rem;
+}
+.dropdownmaps{
+    border: 3px solid green;
+    color: black;
+    font-weight: 800;
+    background-color: green !important;
+}

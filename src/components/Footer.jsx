@@ -29,7 +29,7 @@ export default function Footer() {
               management initiatives and help create a cleaner, greener world."
             </h1>
 
-            <button type="button" class="btn btn-donate mx-auto mt-3">
+            <button type="button" className="btn btn-donate mx-auto mt-3">
               Donate Now
             </button>
           </div>
@@ -97,24 +97,24 @@ export default function Footer() {
               <div className="row mt-3 handles">
                 <div className="col-md-3 mt-3">Follow us</div>
                 <div className="col">
-                  <a class="link2 twitter">
-                    <i class="fab fa-2x fa-twitter"></i>
+                  <a className="link2 twitter">
+                    <i className="fab fa-2x fa-twitter"></i>
                   </a>
                 </div>
                 <div className="col">
                   {" "}
-                  <a class="link2 instagram">
-                    <i class="fab fa-2x fa-instagram"></i>
+                  <a className="link2 instagram">
+                    <i className="fab fa-2x fa-instagram"></i>
                   </a>
                 </div>
                 <div className="col">
-                  <a class="link2 linkedin">
-                    <i class="fab fa-2x fa-linkedin"></i>
+                  <a className="link2 linkedin">
+                    <i className="fab fa-2x fa-linkedin"></i>
                   </a>
                 </div>
                 <div className="col">
-                  <a class="link2 facebook">
-                    <i class="fab fa-2x fa-facebook-f"></i>
+                  <a className="link2 facebook">
+                    <i className="fab fa-2x fa-facebook-f"></i>
                   </a>
                 </div>
               </div>

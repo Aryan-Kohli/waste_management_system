@@ -27,21 +27,21 @@ export default function Complaint() {
           <div className="col-md-6 offset-md-1 complaintform">
             <form>
               <div className="mb-3">
-                <label for="exampleInputName1" className="form-label">
+                <label htmlFor="exampleInputName1" className="form-label">
                   Your Name
                 </label>
                 <input
                   type="text"
                   className="form-control"
                   id="exampleInputEmail1"
-                  required="true"
+                  required={true}
                   placeholder="Rohan Kumar"
-                  autocomplete="off"
+                  autoComplete="off"
                   aria-describedby="emailHelp"
                 />
               </div>
               <div className="mb-3">
-                <label for="exampleInputEmail1" className="form-label">
+                <label htmlFor="exampleInputEmail1" className="form-label">
                   Email address
                 </label>
                 <input
@@ -49,54 +49,54 @@ export default function Complaint() {
                   className="form-control"
                   id="exampleInputEmail1"
                   placeholder="RohanKumar@example.com"
-                  required="true"
-                  autocomplete="off"
+                  required={true}
+                  autoComplete="off"
                   aria-describedby="emailHelp"
                 />
               </div>
               <div className="mb-3">
-                <label for="exampleInputMobile1" className="form-label">
+                <label htmlFor="exampleInputMobile1" className="form-label">
                   Contact No.
                 </label>
                 <input
                   type="text"
-                  required="true"
+                  required={true}
                   placeholder="98XXXXXXXX"
                   className="form-control"
-                  autocomplete="off"
+                  autoComplete="off"
                   id="exampleInputMobile1"
                   aria-describedby="emailHelp"
                 />
                 <div className="mb-3"></div>
-                <label for="exampleInputAddress1" className="form-label">
+                <label htmlFor="exampleInputAddress1" className="form-label">
                   Address
                 </label>
                 <input
                   type="text"
                   className="form-control"
-                  autocomplete="off"
+                  autoComplete="off"
                   placeholder="Munirka , Delhi-110067"
-                  required="true"
+                  required={true}
                   id="exampleInputPassword1"
                 />
               </div>
 
-              <div class="mb-3">
-                <label for="DefaultFile" class="form-label">
+              <div className="mb-3">
+                <label htmlFor="DefaultFile" className="form-label">
                   Picture of the Location
                 </label>
-                <input class="form-control" type="file" id="DefaultFile" />
+                <input className="form-control" type="file" id="DefaultFile" />
               </div>
               <div className="mb-3 form-check">
                 <input
                   type="checkbox"
                   className="form-check-input"
-                  required="true"
+                  required={true}
                   id="exampleCheck1"
                 />
-                <label className="form-check-label" for="exampleCheck1">
-                  I am willing share the my personal Information for the welfare
-                  of Society.
+                <label className="form-check-label" htmlFor="exampleCheck1">
+                  I am willing share the my personal Information htmlFor the
+                  welfare of Society.
                 </label>
               </div>
               <button type="submit" className="btn btn-success">
