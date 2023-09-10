@@ -1,3 +1,7 @@
+#hero {
+    background: linear-gradient(to right, #339933 0%, #003300 100%);
+}
+
 .carousel , .d-block{
     height:600px;
 }
@@ -17,3 +21,12 @@
 .carousel-control-next{
     right:5%;
 }
+
+
+
+.carousel-inner img {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+}
+

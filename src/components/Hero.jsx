@@ -1,9 +1,8 @@
 import "./Hero.css";
-
-import ngopic1 from "../assets/ngo1.jpeg";
-import ngopic2 from "../assets/ngo2.jpeg";
-import cleanpic1 from "../assets/clean.jpeg";
-import cleanpic2 from "../assets/clean2.jpeg";
+import peopleclean from "../assets/animated_clean.png";
+import peoplecleanr from "../assets/cleaning.png";
+import ngoteaching from "../assets/ngo_teaching_about_waste_to_students.png";
+import ngoteachingr from "../assets/ngo_teaching_student_about_plastics_and_wastes.png";
 
 export default function Hero() {
   return (
@@ -45,16 +44,16 @@ export default function Hero() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={cleanpic1} className="d-block w-100" alt="..." />
+            <img src={peopleclean} className="d-block mx-auto img-fluid" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={ngopic1} className="d-block w-100" alt="..." />
+            <img src={peoplecleanr} className="d-block mx-auto img-small" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={cleanpic2} className="d-block w-100" alt="..." />
+            <img src={ngoteaching} className="d-block mx-auto img-small" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={ngopic2} className="d-block w-100" alt="..." />
+            <img src={ngoteachingr} className="d-block mx-auto img-small" alt="..." />
           </div>
         </div>
         <button
