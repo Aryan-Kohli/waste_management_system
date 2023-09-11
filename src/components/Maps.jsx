@@ -1,12 +1,12 @@
 import "./Maps.css";
 import { useState } from "react";
-import northeast from "../assets/ne-delhi.jpg";
-import central from "../assets/c-delhi.jpg";
-import east from "../assets/e-delhi.jpg";
-import south from "../assets/s-delhi.jpg";
-import southeast from "../assets/se-delhi.jpg";
-import southwest from "../assets/sw-delhi.jpg";
-import northwest from "../assets/nw-delhi.jpg";
+import northeast from "../assets/mapspic/ne-Delhi.jpeg";
+import central from "../assets/mapspic/c-Delhi.jpeg";
+import east from "../assets/mapspic/e-Delhi.jpeg";
+import south from "../assets/mapspic/s-Delhi.jpeg";
+import southeast from "../assets/mapspic/se-Delhi.jpeg";
+import southwest from "../assets/mapspic/sw-Delhi.jpeg";
+import northwest from "../assets/mapspic/nw-Delhi.jpeg";
 
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
@@ -14,13 +14,13 @@ import "react-dropdown/style.css";
 export default function Maps() {
   const [image, SetImage] = useState(northwest);
   const options = [
-    "northeast delhi ",
-    "Central delhi",
-    "east Delhi",
-    "south delhi",
-    "southeast delhi",
-    "southwest delhi",
-    "northwest delhi",
+    "Northeast Delhi ",
+    "Central Delhi",
+    "East Delhi",
+    "South Delhi",
+    "Southeast Delhi",
+    "Southwest Delhi",
+    "Northwest Delhi",
   ];
   const options2 = [
     northeast,
@@ -47,18 +47,22 @@ export default function Maps() {
   return (
     <div id="Maps" className="pt-4">
       <div className="container">
-        <h1 id="Mapshead" className=" mt-4">
-          Recycling Centres & Waste Bins Allocator
-        </h1>
+        <div className="row">
+          <div className="col-md-8 offset-md-4">
+            <h1 id="Mapshead" className=" mt-4">
+              Recycling Centres & Waste Bins Allocator
+            </h1>
+          </div>
+        </div>
         <div className="row">
           <div className="col-md-4">
             <img src={image} className="mapimg" />
           </div>
-          <div className="col-md-5 mapsinfo ">
-            <h1>
+          <div className="col-md-6 offset-md-2 mapsinfo ">
+            <h3>
               Locate the closest recycling center and waste bins by selecting
               your area from the options below.
-            </h1>
+            </h3>
             <Dropdown
               options={options}
               onChange={func}

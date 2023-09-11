@@ -1,5 +1,6 @@
 #hero {
-    background: linear-gradient(to right, #339933 0%, #003300 100%);
+    /* background: linear-gradient(to right, #339933 0%, #003300 100%); */
+    background: linear-gradient(90deg , rgb(69,69, 232) , lightblue, rgb(69, 69, 232));
 }
 
 .carousel , .d-block{
