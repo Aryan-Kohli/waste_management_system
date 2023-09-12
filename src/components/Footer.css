@@ -40,7 +40,7 @@
     color:white;
     font-family: 'Playfair Display',
             serif;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             margin-top: 50px;
     list-style-type: none;
 }
@@ -52,6 +52,7 @@
 }
 .footerkafooter {
  color: white;
+ /* font-size: 2rem; */
  /* margin-bottom: -50px; */
 }
 #ftlinks{
@@ -84,3 +85,8 @@ a:hover i {
     height:35px;
     padd
 } */
+.listheads{
+    font-weight: 800 !important;
+    color: rgb(255, 255, 255);   
+    font-size: 1.8rem;
+}

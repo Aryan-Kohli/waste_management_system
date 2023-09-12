@@ -35,37 +35,28 @@ export default function Footer() {
           </div>
           <div className="hrr mx-auto"></div>
           <div className="row footerlinks">
-            <div className="col-md-1 ">
+            <div className="col-md-3 ">
               <ul>
-                <li>about</li>
-                <li>complaint</li>
-                <li>lost</li>
-                <li>pink</li>
+                <li className="listheads">Contact</li>
+                <li>Request a Demo</li>
+                <li>Support </li>
+                <li>Reach Out</li>
               </ul>
             </div>
-            <div className="col-md-1 offset-md-2">
+            <div className="col-md-3 offset-md-1">
               <ul>
-                <li>about</li>
-                <li>complaint</li>
-                <li>lost</li>
-                <li>pink</li>
+                <li className="listheads">Company</li>
+                <li>About Us</li>
+                <li>Diversit</li>
+                <li>Carrers</li>
               </ul>
             </div>
-            <div className="col-md-1 offset-md-2">
+            <div className="col-md-3 offset-md-1">
               <ul>
-                <li>about</li>
-                <li>complaint</li>
-                <li>lost</li>
-                <li>pink</li>
-              </ul>
-            </div>
-
-            <div className="col-md-1 offset-md-2">
-              <ul>
-                <li>about</li>
-                <li>complaint</li>
-                <li>lost</li>
-                <li>pink</li>
+                <li className="listheads">Solutions</li>
+                <li>E-commerce</li>
+                <li>Customer Service</li>
+                <li>Human Resources</li>
               </ul>
             </div>
           </div>
