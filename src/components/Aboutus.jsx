@@ -20,8 +20,11 @@ export default function Aboutus() {
             <Card.Img variant="top" src={quizpic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">Interactive Quizzes</Card.Title>
-              <Card.Text>This is Feature 1.</Card.Text>
-              <Button className="btn btn-primary">Know more.</Button>
+              <Card.Text>
+                Engage school children with quizzes promoting environmental
+                knowlwdge .{" "}
+              </Card.Text>
+              <Button className="btn btn-primary">Know more</Button>
             </Card.Body>
           </Card>
           <Card style={{ width: "24rem" }} className="cards mt-4 mx-4">
@@ -30,8 +33,11 @@ export default function Aboutus() {
               <Card.Title className="cardTitle">
                 Collaboration with Non Goverment Organizations.
               </Card.Title>
-              <Card.Text>This is Feature 2.</Card.Text>
-              <Button className="btn btn-primary">Know more.</Button>
+              <Card.Text>
+                Streamline NGO campaigns , empower youth for waste management
+                and engage communities.
+              </Card.Text>
+              <Button className="btn btn-primary">Know more</Button>
             </Card.Body>
           </Card>
           <Card style={{ width: "24rem" }} className="cards mt-4 mx-4">
@@ -40,7 +46,7 @@ export default function Aboutus() {
               <Card.Title className="cardTitle">
                 Informative Educational Modules and Resources
               </Card.Title>
-              <Card.Text>This is Feature 3.</Card.Text>
+              <Card.Text>this is feature 3.</Card.Text>
               <Button className="btn btn-primary">Know more.</Button>
             </Card.Body>
           </Card>
@@ -50,7 +56,10 @@ export default function Aboutus() {
               <Card.Title className="cardTitle">
                 Society of the month Competitions.
               </Card.Title>
-              <Card.Text>This is Feature 4.</Card.Text>
+              <Card.Text>
+                Encourage societies to compete for the "Cleanest and Greeniest
+                Society of the Month" title
+              </Card.Text>
               <Button className="btn btn-primary">Know more.</Button>
             </Card.Body>
           </Card>
@@ -58,7 +67,7 @@ export default function Aboutus() {
             <Card.Img variant="top" src={blogpic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">Community Blogs</Card.Title>
-              <Card.Text>This is Feature 5.</Card.Text>
+              <Card.Text>This is Feature 5</Card.Text>
               <Button className="btn btn-primary">Know more.</Button>
             </Card.Body>
           </Card>

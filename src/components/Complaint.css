@@ -80,3 +80,11 @@ input:focus {
     /* background-color: black; */
     background: linear-gradient(90deg, rgb(16, 72, 13) 45%,rgb(255, 255, 255) 35% );
 }
+#complaintInfo{
+    color:#2a9d8f;
+    margin-top: calc(0.02*100%);
+}
+#complaintInfo2{
+    color:#2a9d8f;
+    margin-top: calc(-0.02*100%);
+}

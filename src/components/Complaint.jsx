@@ -10,6 +10,18 @@ export default function Complaint() {
               <h1>Register a Complaint ?</h1>
             </div>
           </div>
+          <div className="row">
+            <div className="col-md-6 offset-md-6">
+              <h4 id="complaintInfo">
+                Report dirty areas with images, promoting NGO and
+              </h4>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-5 offset-md-7">
+              <h4 id="complaintInfo2">Municipal Corporation cleanup. </h4>
+            </div>
+          </div>
         </div>
         <div className="row">
           <div className="col-md-5 complaint-left">
