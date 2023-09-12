@@ -22,7 +22,7 @@ export default function Aboutus() {
               <Card.Title className="cardTitle">Interactive Quizzes</Card.Title>
               <Card.Text>
                 Engage school children with quizzes promoting environmental
-                knowlwdge .{" "}
+                knowlwdge{" "}
               </Card.Text>
               <Button className="btn btn-primary">Know more</Button>
             </Card.Body>
@@ -31,11 +31,11 @@ export default function Aboutus() {
             <Card.Img variant="top" src={ngopic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">
-                Collaboration with Non Goverment Organizations.
+                Collaboration with Non Goverment Organizations
               </Card.Title>
               <Card.Text>
                 Streamline NGO campaigns , empower youth for waste management
-                and engage communities.
+                and engage communities
               </Card.Text>
               <Button className="btn btn-primary">Know more</Button>
             </Card.Body>
@@ -46,29 +46,36 @@ export default function Aboutus() {
               <Card.Title className="cardTitle">
                 Informative Educational Modules and Resources
               </Card.Title>
-              <Card.Text>this is feature 3.</Card.Text>
-              <Button className="btn btn-primary">Know more.</Button>
+              <Card.Text>
+                Educational Modules: Engage young minds with interactive
+                lessons, fostering environmental knowledge and awareness
+              </Card.Text>
+              <Button className="btn btn-primary">Know more</Button>
             </Card.Body>
           </Card>
           <Card style={{ width: "24rem" }} className=" cards mt-4 mx-4">
             <Card.Img variant="top" src={rewardpic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">
-                Society of the month Competitions.
+                Society of the month Competitions
               </Card.Title>
               <Card.Text>
                 Encourage societies to compete for the "Cleanest and Greeniest
                 Society of the Month" title
               </Card.Text>
-              <Button className="btn btn-primary">Know more.</Button>
+              <Button className="btn btn-primary">Know more</Button>
             </Card.Body>
           </Card>
           <Card style={{ width: "24rem" }} className="cards mt-4 mx-4">
             <Card.Img variant="top" src={blogpic} className="cardimg" />
             <Card.Body>
               <Card.Title className="cardTitle">Community Blogs</Card.Title>
-              <Card.Text>This is Feature 5</Card.Text>
-              <Button className="btn btn-primary">Know more.</Button>
+              <Card.Text>
+                Community Blogs: Empower individuals to share their insights and
+                knowledge on waste management through community-contributed
+                blogs, featured on our platform to inspire and educate others
+              </Card.Text>
+              <Button className="btn btn-primary">Know more</Button>
             </Card.Body>
           </Card>
           <Card style={{ width: "24rem" }} className="cards mt-4 mx-4">
@@ -79,8 +86,12 @@ export default function Aboutus() {
             />
             <Card.Body>
               <Card.Title className="cardTitle">Artists Section</Card.Title>
-              <Card.Text>This is Feature 6.</Card.Text>
-              <Button className="btn btn-primary">Know more.</Button>
+              <Card.Text>
+                Artist Showcase: Provide talented artists a platform to showcase
+                and sell their unique recycled creations, promoting
+                sustainability through art
+              </Card.Text>
+              <Button className="btn btn-primary">Know more</Button>
             </Card.Body>
           </Card>
         </div>
