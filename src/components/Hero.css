@@ -31,3 +31,9 @@
     max-width: 100%;
 }
 
+#chatbot {
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    right: 0;
+}

@@ -1,8 +1,10 @@
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import RedZone from "./components/RedZone";
 import Blogs from "./components/Blogs";
 import Hero from "./components/Hero";
+import Chatbot from "./components/Chatbot";
 
 import Faq from "./components/Faq";
 import Maps from "./components/Maps";
@@ -16,6 +18,8 @@ function App() {
       <Header />
       <Hero />
       <Complaint />
+      <Chatbot />
+      <RedZone />
       <Maps />
       <Blogs />
       <Aboutus />

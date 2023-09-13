@@ -1,5 +1,6 @@
 import "./Header.css";
 import logo from "./logo.png";
+import profile from "../assets/NGO_profile_photo.jpeg";
 export default function header() {
   return (
     <div id="nav">
@@ -15,8 +16,9 @@ export default function header() {
       <a className="link">Discussions</a>
       <a className="link">Contact</a>
       <div id="left-section">
-        <a className="btn" id="Login">
-          Login | Signup
+        <a className="btn" >       {  /* #id = login */}
+          <img id = "profile" src= {profile} alt = "ngo_logo" />
+           {/* Login | Signup  */}
         </a>
       </div>
     </div>
