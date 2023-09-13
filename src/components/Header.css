@@ -84,8 +84,10 @@ font-family: myFont;
 }
 
 #profile {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    margin-top: -10px;
+    margin-bottom: -7px;
 }
 
 #profile:hover {
